@@ -1,0 +1,442 @@
+.homePage{
+    background-image: url(image1.webp);
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.homeDiv1{
+    text-align: center;
+    color: white;
+    
+}
+.homeH1{
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: 70px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.homeH2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 70px;
+}
+.homeButton{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 90px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 90%;
+}
+.homeText{
+    font-family: sans-serif;
+    font-weight: 50px;
+    font-size: 25px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 225px ;
+    padding-top: 15px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menuA{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 5px;
+}
+.menuLi{
+    text-decoration: none;
+}
+.navButton{
+    border-radius: 5px;
+    border: white solid;
+    padding:13px;
+    margin-right: 13px;
+}
+.howitWorks{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 110px;
+}
+.howitWorks h1{
+    font-weight: 5px;
+    font-size: 60px;
+    color: rgb(87, 81, 81);
+}
+.howitWorks button{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 90px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 90%;
+    border: none;
+    margin-bottom: 100px;
+}
+.pageTwo{
+    height: 250px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.pageBox{
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+}
+.pageBox img{
+    height: 170px;
+    width: 150px;
+}
+.pageBox h5{
+    font-weight: 730;
+    color: rgb(87, 81, 81);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pageBox p{
+    font-family: sans-serif;
+    font-weight: 150;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0;
+}
+.pageThree{
+    width: 100%;
+    height: 700px;
+    background-image: url(fruitbasket.jpg);
+    background-size: cover;
+    text-indent: 100px;
+}
+.pageThree img{
+    height: 70px;
+    width: 70px;
+}
+.pageThree h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+.pageThree p{
+    font-family: sans-serif;
+    font-weight: 70;
+    color:white;
+    font-size: 20px;
+    margin-top: 0;
+}
+.pageThree h5{
+    font-family: sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pageFour{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+.pageFour h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(87, 81, 81);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+.pageFour h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 750;
+    padding-top: 0;
+    margin-top: 0;
+    color: gray;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.pFour{
+    font-weight: 10;
+    color: gray;
+    font-size: 15px;
+}
+.customerSays{
+    height: 250px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.fourBox{
+    height: 250px;
+    width: 500px;
+    display: inline-block; 
+    justify-content: space-evenly;
+}
+.fourBox img{
+    height: 300px;
+    width: 550px;
+}
+.fourBox h5{
+    font-weight: 730;
+    color: rgb(87, 81, 81);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fourBox p{
+    font-family: sans-serif;
+    font-weight: 150;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0;
+}
+.pageFive{
+    height: 750px;
+    width: 100%;
+    background-image: url(plate.webp);
+    background-size: cover;
+    text-align: center;
+}
+.pageFive h1{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 120px;
+    padding-top: 150px;
+}
+.pageFive button{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 90%;
+    border: none;
+    margin-top: 330px;
+    margin-bottom: 5px;
+}
+.pageFive p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.dotOne{
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.dotTwo{
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.dotThree{
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.dotFour{
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.dotFive{
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.dotContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.divSix{
+    width: 100%;
+    text-align: center;
+}
+.awardDiv{
+    display: inline-block;
+    width: 100%;
+    margin-top: 80px;
+}
+.awardTitle{
+    display: inline-block;
+    height: 150px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+.awardText{
+    font-size: 20px;
+    color: darkslategray;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.awardHolder{
+    margin-bottom: 5px;
+    height: 120px;
+    width: auto;
+}
+.lineDiv{
+    display: flex;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    font-family: sans-serif;
+}
+.lineDiv hr{
+    height: 1px;
+    width: 33%;
+    text-align: center;
+    margin-top: 29px;
+}
+.divSeven{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.divSeven img{
+    width: auto;
+    height: 40px;
+}
+.divEight{
+    height: 800px;
+    width: 100%;
+    background-image: url(chef.jpg);
+    background-size: cover;
+}
+.divEight h1{
+    font-weight: 750;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 150px;
+    padding-top: 150px;
+    margin-left: 170px;
+    font-family: sans-serif;
+}
+.divEight h3{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 25px;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 525px;
+    margin-left: 170px;
+}
+.divEight button{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 90%;
+    border: none;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.divNine{
+    width: 100%;
+    height: 250px;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.divNine h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 790;
+    padding-top: 0;
+    margin-top: 100px;
+    color: rgb(78, 74, 74);
+    text-align: center;
+}
+.divNine button{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 90%;
+    border: none;
+    margin-top: 20px;
+}
+.divNine p{
+    color: gray;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
